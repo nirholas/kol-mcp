@@ -1,0 +1,55 @@
+{
+	"name": "@three-ws/kol-mcp",
+	"version": "0.1.0",
+	"mcpName": "io.github.nirholas/kol-mcp",
+	"description": "Track one smart trader from any AI agent — a tracked KOL wallet's portfolio P&L (realized/unrealized, win rate, top holding) and its trades on a given mint. Read-only over the live public three.ws KOL API. No key, no signer, no payment.",
+	"type": "module",
+	"author": "nirholas <support@three.ws>",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://three.ws",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nirholas/kol-mcp.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nirholas/three.ws/issues"
+	},
+	"keywords": [
+		"mcp",
+		"three.ws",
+		"solana",
+		"kol",
+		"smart-money",
+		"portfolio",
+		"pnl",
+		"copy-trading"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"src",
+		"server.json",
+		"README.md",
+		"LICENSE"
+	],
+	"bin": {
+		"kol-mcp": "src/index.js"
+	},
+	"main": "./src/index.js",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test \"test/**/*.test.mjs\"",
+		"inspect": "npx -y @modelcontextprotocol/inspector node src/index.js"
+	},
+	"dependencies": {
+		"@modelcontextprotocol/sdk": "^1.29.0",
+		"zod": "^3.23.8"
+	}
+}
