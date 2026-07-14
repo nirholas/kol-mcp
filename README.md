@@ -141,7 +141,4 @@ No key on the client: the Birdeye key that backs portfolio P&L and the Helius ke
 
 ## License
 
-Copyright © 2026 nirholas. All rights reserved.
-
-This software is proprietary — see [LICENSE](./LICENSE). No rights are granted
-without the express written permission of the copyright owner.
+All rights reserved. See [LICENSE](LICENSE).
