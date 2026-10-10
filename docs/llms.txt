@@ -1,0 +1,20 @@
+# @three-ws/kol-mcp
+
+> Track one smart trader from any AI agent — a tracked KOL wallet's portfolio P&L (realized/unrealized, win rate, top holding) and its trades on a given mint. Read-only over the live public three.ws KOL API. No key, no signer, no payment.
+
+@three-ws/kol-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/kol-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/kol-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/kol-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/kol-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/kol-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/kol-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/kol-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/kol-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fkol-mcp)

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "@three-ws/kol-mcp"
+abstract: "Track one smart trader from any AI agent — a tracked KOL wallet's portfolio P&L (realized/unrealized, win rate, top holding) and its trades on a given mint. Read-only over the live public three.ws KOL API. No key, no signer, no payment."
+version: 0.1.2
+license: Apache-2.0
+repository-code: "https://github.com/nirholas/kol-mcp"
+url: "https://three.ws"
+authors:
+  - name: three.ws
+    website: "https://three.ws"
