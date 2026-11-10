@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "kol-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@three-ws/kol-mcp"
+      ]
+    }
+  }
+}
